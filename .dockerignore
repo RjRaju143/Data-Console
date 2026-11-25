@@ -1,0 +1,15 @@
+node_modules
+dist
+.adminjs
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+README.md
