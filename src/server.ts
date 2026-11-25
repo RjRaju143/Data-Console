@@ -21,6 +21,7 @@ const redisCommanderArgs = (redisUrl: string): string[] => {
   const args = [
     "--address", redisCommanderHost,
     "--port", String(redisCommanderPort),
+    "--url-prefix", "/redis",
     "--redis-host", url.hostname,
     "--redis-port", url.port || "6379",
     "--nosave",
